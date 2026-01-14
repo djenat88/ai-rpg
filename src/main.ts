@@ -1,3 +1,4 @@
-import { startGame } from "./core/game/game.loop";
+import { createApp } from 'vue'
+import App from './App.vue'
 
-startGame();
+createApp(App).mount('#app')
